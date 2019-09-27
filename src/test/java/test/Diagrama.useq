@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.11" icons="true">  
+  <object id="1" language="java" name="com.cc3002.breakout.logic.Level" project="Breakout" 
+    file="/Breakout/src/main/java/com/cc3002/breakout/logic/Level.java" binary="false" label="level" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="204" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="131" x="5" y="165"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="com.cc3002.breakout.logic.IBrick" project="Breakout" 
+    file="/Breakout/src/main/java/com/cc3002/breakout/logic/IBrick.java" binary="false" label="iBrick" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="110" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="131" x="140" y="186"/>    
+    </execution>  
+  </object>  
+  <object id="6" language="java" name="com.cc3002.breakout.logic.AbstractBrick" project="Breakout" 
+    file="/Breakout/src/main/java/com/cc3002/breakout/logic/AbstractBrick.java" binary="false" label="abstractBrick" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="346" y="0"/>    
+    <execution id="7">      
+      <position height="63" width="131" x="275" y="175"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="63" width="131" x="275" y="286"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="com.cc3002.breakout.logic.SoftBrick" project="Breakout" 
+    file="/Breakout/src/main/java/com/cc3002/breakout/logic/SoftBrick.java" binary="false" label="softBrick" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="427" y="0"/>    
+    <execution id="9">      
+      <position height="21" width="131" x="410" y="196"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="com.cc3002.breakout.logic.StoneBrick" project="Breakout" 
+    file="/Breakout/src/main/java/com/cc3002/breakout/logic/StoneBrick.java" binary="false" label="stoneBrick" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="620" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="131" x="545" y="307"/>    
+    </execution>  
+  </object>  
+  <message id="3" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="8" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="11" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>
+</sequence-diagram>
